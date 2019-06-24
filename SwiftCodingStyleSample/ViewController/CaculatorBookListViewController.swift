@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CaculatorBookListViewController.swift
 //  SwiftCodingStyleSample
 //
 //  Created by Kerry Dong on 2019/6/24.
@@ -9,7 +9,7 @@
 import UIKit
 
 // MARK: - Order 1: Protocol, Enum, Struct, class... for outter used
-protocol WelcomeViewControllerDelegate {
+protocol CaculatorBookListViewControllerDelegate {
     func doNothing()
 }
 
