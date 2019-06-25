@@ -56,6 +56,7 @@ class CaculatorBookListViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -87,10 +88,33 @@ class CaculatorBookListViewController: UIViewController {
         bookTableView.dataSource = self
         bookTableView.delegate = self
     }
-    
 }
 
-// MARK: - Order 10: Protocol to extension - Native class
+// MARK: - Order 10: Group of specific outer function
+extension CaculatorBookListViewController {
+    func updateView() {
+        
+    }
+}
+
+// MARK: - Order 11: Group of specific inner function
+extension CaculatorBookListViewController {
+    private func showWelcomeAlertSheet() {
+        let welcomeAlertSheet = UIAlertController(title: Constants.welcomeTitle,
+                                                  message: Constants.welcomeMessage,
+                                                  preferredStyle: .alert)
+        let okAction = UIAlertAction(title: Constants.ok, style: .default, handler: nil)
+        welcomeAlertSheet.addAction(okAction)
+        
+        present(welcomeAlertSheet, animated: true, completion: nil)
+    }
+    
+    private func handleOrientation() {
+        
+    }
+}
+
+// MARK: - Order 12: Protocol to extension - Native class
 extension CaculatorBookListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return bookList.count
@@ -119,7 +143,7 @@ extension CaculatorBookListViewController: UITableViewDelegate {
     }
 }
 
-// MARK: - Order 11: Protocol to extension - Custom class
+// MARK: - Order 13: Protocol to extension - Custom class
 extension CaculatorBookListViewController: BookManagerDelegate {
     func hasUpdated(bookList: [Book]) {
         self.bookList = bookList
@@ -127,7 +151,7 @@ extension CaculatorBookListViewController: BookManagerDelegate {
     }
 }
 
-// MARK: - Order 12: IBAction function
+// MARK: - Order 14: IBAction function
 extension CaculatorBookListViewController {
     @IBAction func alertButtonTouchUpInside(_ sender: UIBarButtonItem) {
         showWelcomeAlertSheet()
@@ -145,26 +169,5 @@ extension CaculatorBookListViewController {
         numberToBeAddedTextField.text = ""
         resultLabel.text = String(0)
     }
-}
-
-// MARK: - Order 13: Group of specific outer function
-extension CaculatorBookListViewController {
-    func updateView() {
-        
-    }
-}
-
-// MARK: - Order 14: Group of specific inner function
-extension CaculatorBookListViewController {
-    private func showWelcomeAlertSheet() {
-        let welcomeAlertSheet = UIAlertController(title: Constants.welcomeTitle,
-                                          message: Constants.welcomeMessage,
-                                          preferredStyle: .alert)
-        let okAction = UIAlertAction(title: Constants.ok, style: .default, handler: nil)
-        welcomeAlertSheet.addAction(okAction)
-        
-        present(welcomeAlertSheet, animated: true, completion: nil)
-    }
-    
 }
 
