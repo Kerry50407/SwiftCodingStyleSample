@@ -16,11 +16,11 @@
     * Order 8: Override function
     * Order 9: Fuction for intialization
 
-* Order 10: Protocol to extension - Native class
-* Order 11: Protocol to extension - Custom class
-* Order 12: IBAction function
-* Order 13: Group of specific outer function
-* Order 14: Group of specific inner function
+* Order 10: Group of specific outer function
+* Order 11: Group of specific inner function
+* Order 12: Protocol to extension - Native class
+* Order 13: Protocol to extension - Custom class
+* Order 14: IBAction function
 
 
 > Sameple in CaculatorBookListViewController.swift
