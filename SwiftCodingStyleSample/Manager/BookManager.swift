@@ -55,7 +55,7 @@ class BookManager {
     }
 }
 
-// MARK: - Order 11: Function for other class used
+// MARK: - Order 10: Group of specific outer function
 extension BookManager {
     func getBookList() -> [Book] {
         let randomIndex = Int.random(in: 0 ..< 3)
