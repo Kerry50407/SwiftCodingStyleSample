@@ -1,4 +1,4 @@
-# SwiftCodingStyleSample 
+# SwiftCodingStyleSample
 
 ## This sample demonstrate the order of a class
 
