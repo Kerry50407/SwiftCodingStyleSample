@@ -1,6 +1,6 @@
-# SwiftCodingStyleSample
+# SwiftCodingStyleSample 
 
-## This sample demonstrate the order of a class
+## This sample demonstrate the order of a class  
 
 * Order 1: Protocol, Enum, Struct, class... for outter used
 * Order 2: Class defination
