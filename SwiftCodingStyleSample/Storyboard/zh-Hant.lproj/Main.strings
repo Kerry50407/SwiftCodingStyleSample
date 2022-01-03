@@ -1,0 +1,39 @@
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "6Cr-JZ-6SJ"; */
+"6Cr-JZ-6SJ.placeholder" = "0";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "6dx-8P-K5h"; */
+"6dx-8P-K5h.placeholder" = "0";
+
+/* Class = "UILabel"; text = "+"; ObjectID = "Cn5-8n-22B"; */
+"Cn5-8n-22B.text" = "+";
+
+/* Class = "UILabel"; text = "="; ObjectID = "DZC-Uc-3U8"; */
+"DZC-Uc-3U8.text" = "=";
+
+/* Class = "UIBarButtonItem"; title = "Alert"; ObjectID = "Sw2-ek-T8C"; */
+"Sw2-ek-T8C.title" = "Alert";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "X5s-36-M94"; */
+"X5s-36-M94.text" = "Price";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Xzr-zi-Xig"; */
+"Xzr-zi-Xig.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Caculate"; ObjectID = "dbj-9b-d4h"; */
+"dbj-9b-d4h.normalTitle" = "Caculate";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "mQz-FT-VR8"; */
+"mQz-FT-VR8.text" = "0";
+
+/* Class = "UINavigationItem"; title = "Caculator And Book List"; ObjectID = "rwf-sd-Eiq"; */
+"rwf-sd-Eiq.title" = "Caculator And Book List";
+
+/* Class = "UILabel"; text = "NewArrival"; ObjectID = "wK2-br-0rh"; */
+"wK2-br-0rh.text" = "NewArrival";
+
+/* Class = "UILabel"; text = "Book Name"; ObjectID = "z9n-Yn-QRX"; */
+"z9n-Yn-QRX.text" = "Book Name";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "zxj-sm-Bxx"; */
+"zxj-sm-Bxx.normalTitle" = "Clear";
